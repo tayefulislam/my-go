@@ -24,8 +24,13 @@ func main() {
 
 	zila := "Nabinagar"
 
-	fmt.Println(name)
-	fmt.Println("Roll : ", roll)
-	fmt.Println("District : ", district, "Name", name, zila)
+	// fmt.Println(name)
+	// fmt.Println("Roll : ", roll)
+	// fmt.Println("District : ", district, "Name", name, zila)
+
+	// formate the output
+
+	fmt.Printf("I'm %v form %v\n", name, district)
+	fmt.Printf("My class Roll is %v And my Upzila is %v\n", roll, zila)
 
 }
